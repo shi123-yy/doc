@@ -70,6 +70,18 @@ void can()
     发送：
     cansend can0 123#1122334455667788
 
+
+    5.解析数据
+    candump can0 | grep 123
+
+    6.播放数据
+    canplayer -I candump-2025-07-30_103520.log
+
+    7.记录can数据
+    candump can0 > candump-2025-07-30_103520.log
+    candump can0 -l
+
+
     */
   
 }
